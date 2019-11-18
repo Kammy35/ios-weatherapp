@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160007E823834223006CE8DA /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160007E723834223006CE8DA /* CurrentLocationViewController.swift */; };
 		16D08C8B2382F26C0039C0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D08C8A2382F26C0039C0EB /* AppDelegate.swift */; };
 		16D08C8D2382F26C0039C0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D08C8C2382F26C0039C0EB /* SceneDelegate.swift */; };
 		16D08C8F2382F26C0039C0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D08C8E2382F26C0039C0EB /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		16D08C942382F26E0039C0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D08C932382F26E0039C0EB /* Assets.xcassets */; };
 		16D08C972382F26E0039C0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D08C952382F26E0039C0EB /* LaunchScreen.storyboard */; };
 		16D08CA22382F26E0039C0EB /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D08CA12382F26E0039C0EB /* WeatherAppTests.swift */; };
-		16D08CB123830A790039C0EB /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D08CB023830A790039C0EB /* MapKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160007E723834223006CE8DA /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		16D08C872382F26C0039C0EB /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D08C8A2382F26C0039C0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16D08C8C2382F26C0039C0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		16D08C9D2382F26E0039C0EB /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D08CA12382F26E0039C0EB /* WeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppTests.swift; sourceTree = "<group>"; };
 		16D08CA32382F26E0039C0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16D08CB023830A790039C0EB /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 				16D08C8A2382F26C0039C0EB /* AppDelegate.swift */,
 				16D08C8C2382F26C0039C0EB /* SceneDelegate.swift */,
 				16D08C8E2382F26C0039C0EB /* ViewController.swift */,
-				16D08CB023830A790039C0EB /* MapKitViewController.swift */,
+				160007E723834223006CE8DA /* CurrentLocationViewController.swift */,
 				16D08C902382F26C0039C0EB /* Main.storyboard */,
 				16D08C932382F26E0039C0EB /* Assets.xcassets */,
 				16D08C952382F26E0039C0EB /* LaunchScreen.storyboard */,
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D08C8F2382F26C0039C0EB /* ViewController.swift in Sources */,
-				16D08CB123830A790039C0EB /* MapKitViewController.swift in Sources */,
+				160007E823834223006CE8DA /* CurrentLocationViewController.swift in Sources */,
 				16D08C8B2382F26C0039C0EB /* AppDelegate.swift in Sources */,
 				16D08C8D2382F26C0039C0EB /* SceneDelegate.swift in Sources */,
 			);
